@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import { BookOpen } from 'lucide-react';
@@ -10,7 +10,6 @@ function LoginForm() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-  const router = useRouter();
   const searchParams = useSearchParams();
   const redirect = searchParams.get('redirect') || '/admin';
 
@@ -39,7 +38,7 @@ function LoginForm() {
             <BookOpen className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-3xl font-bold text-green-800">QuisGame</h1>
-          <p className="text-gray-500 mt-1">Área do Administrador</p>
+          <p className="text-gray-500 mt-1">Área Restrita</p>
         </div>
         <Card>
           <form onSubmit={handleSubmit} className="space-y-4">
