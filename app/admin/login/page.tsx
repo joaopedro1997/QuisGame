@@ -25,7 +25,7 @@ function LoginForm() {
     });
     setLoading(false);
     if (res.ok) {
-      router.push(redirect);
+      window.location.href = redirect;
     } else {
       setError('Senha incorreta. Tente novamente.');
     }
