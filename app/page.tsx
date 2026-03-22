@@ -18,7 +18,7 @@ export default function HomePage() {
           </Link>
           <Link href="/admin" className="flex items-center justify-center gap-3 w-full bg-white text-gray-700 border border-gray-300 font-semibold py-4 px-6 rounded-xl hover:bg-gray-50 transition-colors text-lg">
             <BookOpen className="w-5 h-5" />
-            Área do Professor
+            Área Restrita
           </Link>
         </div>
       </div>
