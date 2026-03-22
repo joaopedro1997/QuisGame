@@ -11,7 +11,7 @@ export function middleware(request: NextRequest) {
 
   // Protect all /admin routes
   if (pathname.startsWith('/admin')) {
-    const adminPassword = process.env.ADMIN_PASSWORD || 'admin';
+    const adminPassword = process.env.ADMIN_PASSWORD || 'admin0911';
     const authCookie = request.cookies.get('admin_auth');
 
     if (!authCookie || authCookie.value !== adminPassword) {
