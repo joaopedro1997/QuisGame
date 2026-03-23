@@ -129,7 +129,7 @@ export default function SessionControlPage({ params }: { params: { sessionId: st
         <div className="flex items-center gap-3">
           <BookOpen className="w-6 h-6" />
           <div>
-            <h1 className="text-xl font-bold">QuisGame — Painel do Host</h1>
+            <h1 className="text-xl font-bold">QuizGame — Painel do Host</h1>
             <p className="text-green-200 text-sm">{quizTitle}</p>
           </div>
         </div>

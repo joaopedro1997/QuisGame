@@ -190,7 +190,7 @@ export default function QuizEditorPage({ params }: { params: { quizId: string } 
       <header className="bg-green-700 text-white px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <BookOpen className="w-6 h-6" />
-          <h1 className="text-xl font-bold">QuisGame — Admin</h1>
+          <h1 className="text-xl font-bold">QuizGame — Admin</h1>
         </div>
         <Button onClick={handleStart} size="sm" variant="secondary" disabled={quiz.questions.length === 0}>
           <Play className="w-4 h-4" /> Iniciar Sessão

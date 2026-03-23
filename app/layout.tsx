@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "QuisGame - Quiz Interativo",
+  title: "QuizGame - Quiz Interativo",
   description: "Plataforma de quiz interativo para sala de aula",
 };
 

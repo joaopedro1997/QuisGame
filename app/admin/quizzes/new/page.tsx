@@ -36,7 +36,7 @@ export default function NewQuizPage() {
     <div className="min-h-screen bg-green-50">
       <header className="bg-green-700 text-white px-6 py-4 flex items-center gap-3">
         <BookOpen className="w-6 h-6" />
-        <h1 className="text-xl font-bold">QuisGame — Admin</h1>
+        <h1 className="text-xl font-bold">QuizGame — Admin</h1>
       </header>
       <main className="max-w-2xl mx-auto p-6">
         <Link href="/admin" className="inline-flex items-center gap-1 text-green-700 hover:underline mb-6">
