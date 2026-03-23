@@ -27,7 +27,7 @@ export default function HomePage() {
           <p className="text-xs text-gray-500 mb-2">
             <span className="font-medium text-gray-600">Professora:</span> Rebeca Figueiredo Lima Sousa
           </p>
-          <p className="text-xs font-medium text-gray-600 mb-1">Alunos:</p>
+          <p className="text-xs font-medium text-gray-600 mb-1">Integrantes:</p>
           <ul className="text-xs text-gray-500 space-y-0.5">
             <li>Maria Luiza</li>
             <li>Stefany Duarte</li>

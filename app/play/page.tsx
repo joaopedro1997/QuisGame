@@ -87,6 +87,25 @@ function JoinForm() {
             </Button>
           </form>
         </Card>
+
+        <div className="mt-6 bg-white border border-gray-200 rounded-xl p-5">
+          <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-3">Integrantes do Grupo</p>
+          <p className="text-xs text-gray-500 mb-2">
+            <span className="font-medium text-gray-600">Professora:</span> Rebeca Figueiredo Lima Sousa
+          </p>
+          <p className="text-xs font-medium text-gray-600 mb-1">Integrantes:</p>
+          <ul className="text-xs text-gray-500 space-y-0.5">
+            <li>Maria Luiza</li>
+            <li>Stefany Duarte</li>
+            <li>Camile Costa</li>
+            <li>Mayara Andrade Barros</li>
+            <li>Gabriele de Souza Santos</li>
+            <li>Moises Dutra</li>
+            <li>Kauan Pina</li>
+            <li>Eduarda de Carvalho</li>
+            <li>Ian Rodrigues</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
