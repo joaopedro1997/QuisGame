@@ -32,7 +32,7 @@ export default function HomePage() {
             <li>Maria Luiza</li>
             <li>Stefany Duarte</li>
             <li>Camile Costa</li>
-            <li>Mayara</li>
+            <li>Mayara Andrade Barros</li>
             <li>Gabriele de Souza Santos</li>
             <li>Moises Dutra</li>
             <li>Kauan Pina</li>
